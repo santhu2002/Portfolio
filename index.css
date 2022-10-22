@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #efedea;
+    color: black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+.image a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sec1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.sec1 li :hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+.container {
+    display: flex;
+    padding: 35px;
+    background-color: #f6f4f2;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container1 {
+    display: flex;
+    padding: 40px;
+    background-color: #f6f4f2;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.content h3 {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #267294;
+    color: white;
+    width: 156px;
+    margin: 10px 0;
+}
+
+.content h1 {
+    margin: 10px 0;
+    color: #223153;
+}
+
+.content a {
+    margin: 20px 0;
+    color: black;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+
+.connect img {
+    width: 2%;
+    margin-right: 10px;
+}
+
+.connect {
+    width: 76.7%;
+
+}
+
+.container2 {
+    display: flex;
+    padding: 60px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container3 {
+    display: flex;
+    padding: 35px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    font-family: 'Roboto Slab', serif;
+    width: 76%;
+}
+
+.card {
+    display: flex;
+    border: 1px solid black;
+    padding: 23px;
+    height: 450px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    width: 29%;
+    background-color:  #f6f4f2;
+    border-radius: 20px;
+    margin: 10px 20px ;
+}
+
+.card:hover{
+    transform: scale(0.9,0.9);
+    cursor: pointer;
+}
+
+.container4{
+    display: flex;
+    padding: 60px 20px ;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    background-color:  #f6f4f2;
+
+}
+
+.inf{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.inff{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0;
+}
+.form{
+    display: flex;
+    align-content: center;
+    width: 40%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form h3 {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #267294;
+    color: white;
+    width: 156px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+input,textarea{
+    width: 50%;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    margin:5px 2px;
+    padding: 5px;
+    color:#9f8e9f
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
