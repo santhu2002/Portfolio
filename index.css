@@ -180,6 +180,7 @@ button {
     background-color:  #f6f4f2;
     border-radius: 20px;
     margin: 10px 20px ;
+    transition: transform 0.2s;
 }
 
 .card:hover{
